@@ -6,6 +6,6 @@
  ### How to Run ###
  - A shortcut has been included with the post. This shortcut should run the executable.
  
- --> The executable itself is stored in the /build/exe.win-amd64-3.11/ folder as "runner.py"
+ --> The executable itself is stored in the /build/exe.win-amd64-3.11/ folder as "runner.exe"
  
  --> To run the program w/o a shortcut, simply open this executable

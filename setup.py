@@ -2,7 +2,7 @@ from cx_Freeze import setup, Executable
 import sys
 
 # Specify the main script
-mainScript = 'runner.py'
+mainScript = 'YouTubeToMP4.py'
 
 # Determine the base parameter based on the platform
 if sys.platform == 'win32' or sys.platform == 'darwin':
@@ -11,7 +11,7 @@ else:
     base = None
 
 # Create an instance of the Executable class
-executable = Executable(script=mainScript, base=base)
+executable = Executable(script=mainScript, base=base, icon="logoIcon.ico")
 
 # Set additional options for the setup
 options = {
@@ -25,7 +25,7 @@ options = {
 setup(
     name='YoutubeToMP4',
     version='1.0',
-    description='Converts a Youtube URL to a downloaded MP4 file. This is downloaded to the users downloads folder.',
+    description='Converts a YouTube URL to a downloaded MP4 file. This is downloaded to the users downloads folder.',
     executables=[executable],
     options=options,
 )

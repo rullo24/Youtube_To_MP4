@@ -1,10 +1,8 @@
 import tkinter as tk
-import os
 from pytube import exceptions
-from ytToMp4 import downloadVideo
 from tkinter import messagebox
 from PIL import Image, ImageTk
-
+from videoDownloader import downloadVideo
 
 class ytGUI():
     def __init__(self):
